@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.all {
+    font-family: 'Roboto', sans-serif;;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+ul {
+    list-style: none;
+}
+ a{
+    text-decoration: none;
+ }
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: black;
+
+}
+
+aside {
+    padding: 2rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    
+}
+
+.footer {
+    color: black;
+    font-size: 15px;
+}
+
+main {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+
+    margin: 2rem;
+    margin-left: 0;
+    padding: 2rem;
+}
+
+.contenedor-todos-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    
+}
+
+.imagen-pruducto {
+    max-width: 100%;
+
+}
+
+.boton-secciones {
+    background-color: rgb(194, 192, 192);
+    border-radius: 5px;
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.imagen-producto-carro {
+    width: 5rem;
+}
+
+.producto-carrito {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    border-radius: 2px ;
+}
+
+.boton-regresar {
+    background-color: rgb(194, 192, 192);
+    border-radius: 5px;
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: .5rem;
+    margin: .5rem;
+    
+
+}
+
+.boton-carrito {
+    background-color: rgb(194, 192, 192);
+    border-radius: 5px;
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: .5rem;
+    margin: .5rem;
+
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.contenedor-carrito {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+
+.active {
+    background-color: #F7CE68;
+    color: black;
+    width: 100%;
+    border-radius: 1rem;
+
+
+}

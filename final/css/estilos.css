@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap");
+
+.all {
+    font-family: "Bebas Neue", cursive;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+ }
+
+/* CSS GENERAL */
+.contenedor {
+    display: grid;
+    grid-template-columns: 4fr;
+    background-color: rgb(51, 50, 50);
+
+}
+
+aside {
+
+    background-color: rgb(238, 233, 233);
+    color: rgb(101, 97, 97);
+
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+    color: white;
+    background-color: rgb(51, 50, 50);
+    
+}
+
+main {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    margin: 2rem;
+    margin-left: 0;
+    padding: 2rem;
+}
+
+.buttons {
+    background-color: rgb(51, 50, 50);
+    color: white;
+    font-family: "Bebas Neue", cursive;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+a:visited {
+    color: white;
+    
+}
+
+.logo {
+    font-size: 41px;
+    color: #FBAB7E;
+    font-family: "Satisfy", cursive;
+
+}
+
+.h3-footer {
+    color: #060606;
+    font-size: 15px;
+}
+
+
+
+.active {
+    background-color: #cca84c;
+    color: black;
+    width: 100%;
+    border-radius: 1rem;
+
+
+}
+
+.partidos {
+    border-color:rgb(51, 50, 50);
+    border-style:solid;
+    
+    
+}
+
+.disabled {
+    display: none;
+}
+
+.lista {
+    list-style: none;
+    border-style: solid;
+    border-color: black;
+    border-left: none;
+    border-right: none;
+    border-width: .1px;
+    background-color: #F7CE68 ;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+
+}
+
+
+/* INDEX.HTML */
+
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.resultados-nba {
+    
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 70px 70px 1fr;
+    text-align: center;
+}
+
+.bienvenida { 
+    font-size: 20px;
+    padding: 40px;
+    margin: 5px;
+    text-align: center;
+        color: white;
+     
+}
+
+.h2-bienvenida { 
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(51, 50, 50);
+        color: white;
+        display: inline-block;
+}
+
+.p-bienvenida {
+    margin: 20px 150px;
+    padding: 8px 10px;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    display: inline-block;
+}
+
+.imagenesbienvenida {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.imagen-bienvenida {
+    width: 500px;
+    max-width: 100%;
+}
+
+.contenedor-productos {
+    display: grid;
+    grid-template-rows: 1fr;
+
+}
+
+.a-bienvenida {
+    text-decoration: underline;
+    color: #FBAB7E;
+}
+
+.a-bienvenida:visited{
+    text-decoration: underline;
+    color: #FBAB7E;
+
+}
+
+.img { display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descripcion-producto {
+    text-align: center;
+}
+
+.menu-carrito {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.contenedor-todos-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+
+}
+
+.imagen-pruducto {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.h3-lista {
+    color: white;
+}
+
+/* CARRITO.HTML */
+
+.imagen-producto-carro {
+    width: 5rem;
+}
+
+.productos-carrito {
+    display: grid;
+
+}
+
+.producto-carrito {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    border-radius: 2px ;
+    text-align: center;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.contenedor-carrito {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.h3 {
+    font-size: 30px;
+
+}
+
+#opciones-carrito {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.derecha{ 
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-content: center;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.total-carrito {
+    display: flex;
+    align-items: center;
+}
+
+
+

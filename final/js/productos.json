@@ -1,0 +1,123 @@
+ [
+  
+    {
+        "id": "zapatilla1",
+        "titulo": "Nike Kyrie Low 5.",
+        "imagen": "../imagenes/kyrie low 5.jpg",
+        "categoria": {"nombre": "Zapatillas",
+                    "id": "zapatillas" 
+                },
+        "precio": 55899
+    },
+
+    {
+        "id": "zapatilla2",
+        "titulo": "Nike Lebron Witness",
+        "imagen": "../imagenes/lebron witness.jpg",
+        "categoria": {"nombre": "Zapatillas",
+                    "id": "zapatillas" 
+                },
+        "precio": 64999
+    },
+    {
+        "id": "zapatilla3",
+        "titulo": "Nike Lebron XX",
+        "imagen": "../imagenes/lebron xx.jpg",
+        "categoria": {"nombre": "Zapatillas",
+                    "id": "zapatillas" 
+                },
+        "precio": 75299
+    },
+    {
+        "id": "zapatilla4",
+        "titulo": "Nike GT Cut II",
+        "imagen": "../imagenes/nike gt cut.jpg",
+        "categoria": {"nombre": "Zapatillas",
+                    "id": "zapatillas" 
+                },
+        "precio": 45999
+    },
+    {
+        "id": "zapatilla5",
+        "titulo": "Nike Inmortality Giannis",
+        "imagen": "../imagenes/nike inmortality giannis.jpg",
+        "categoria": {"nombre": "Zapatillas",
+                    "id": "zapatillas" 
+                },
+        "precio": 47499
+    },
+    {
+        "id": "zapatilla6",
+        "titulo": "Nike Precision 6",
+        "imagen": "../imagenes/nike precision 6.jpg",
+        "categoria": {"nombre": "Zapatillas",
+                    "id": "zapatillas" 
+                },
+        "precio": 51499
+    },
+    {
+        "id": "zapatilla7",
+        "titulo": "Nike Kevin Durant 5 Trey X",
+        "imagen": "../imagenes/kd trey 5.jpg",
+        "categoria": {"nombre": "Zapatillas",
+                    "id": "zapatillas" 
+                },
+        "precio": 47499
+    },
+    {
+        "id": "media1",
+        "titulo": "Media Nike Blanca Elite NBA",
+        "imagen": "../imagenes/media1.jpg",
+        "categoria": {"nombre": "Medias",
+                    "id": "medias" 
+                },
+        "precio": 4999
+    },
+    {
+        "id": "media2",
+        "titulo": "Media Nike Negra Elite NBA",
+        "imagen": "../imagenes/media3.jpg",
+        "categoria": {"nombre": "Medias",
+                    "id": "medias" 
+                },
+        "precio": 5999
+    },
+    {
+        "id": "media3",
+        "titulo": "Media Stance Blanca NBA",
+        "imagen": "../imagenes/media4.jpg",
+        "categoria": {"nombre": "Medias",
+                    "id": "medias" 
+                },
+        "precio": 6999
+    },
+    {
+        "id": "media4",
+        "titulo": "Media Nike Elite Blanca",
+        "imagen": "../imagenes/media5.jpg",
+        "categoria": {"nombre": "Medias",
+                    "id": "medias" 
+                },
+        "precio": 4499
+    },
+    {
+        "id": "media5",
+        "titulo": "Media Elite Negra y Blanca",
+        "imagen": "../imagenes/media7.jpg",
+        "categoria": {"nombre": "Medias",
+                    "id": "medias" 
+                },
+        "precio": 4999
+    },
+    {
+        "id": "media6",
+        "titulo": "Media Elite Negra y Roja",
+        "imagen": "../imagenes/media6.jpg",
+        "categoria": {"nombre": "Medias",
+                    "id": "medias" 
+                },
+        "precio": 5199}
+        
+    
+]
+
